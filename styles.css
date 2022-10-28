@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header .top-most-area {
+  position: relative;
+  display: flex;
+
+  /* justify-content: space-between; */
+
+  /* display: flex;
+  justify-content: space-between;
+  align-items: flex-start; */
+}
+
+/* .page-one header.page-design{
+    position: relative;
+} */
+.page-design {
+  width: 111px;
+  height: 74px;
+
+  /* left: 0px;
+top: 0px; */
+}
+
+.pop-down-menu {
+  /* display:flex; */
+  width: 20px;
+  height: 14px;
+  margin-left: 10rem;
+
+  /* left: 284px;
+  top: 19px; */
+}
+
+.pop-down-menu::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all 2s ease;
+}
+
+.pop-down-menu:hover::before {
+  width: 100%;
+}
+
+.personal-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-description h1 {
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+
+  /* or 50px */
+
+  color: #1a2236;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.personal-description p {
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  margin-bottom: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+/* .first-button{    } */
+
+.start-collab-button {
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+
+  /* margin: ; */
+  border-color: white;
+  background: #1a2236;
+}
+
+.start-collab-button .button-text {
+  color: white;
+}
+
+.start-collab-button:hover {
+  background-color: aqua;
+}
+
+.seperator-design {
+  height: 160px;
+  left: 0;
+  top: 472px;
+  margin-top: 25px;
+}
